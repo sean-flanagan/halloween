@@ -1,0 +1,36 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+/* Custom designs */
+@import url(components/banner.css);
+@import url(components/cards.css);
+@import url(components/container.css);
+@import url(components/footer.css);
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Creepster;
+}
+
+h1, h2, h3, h4 {
+  font-family: Creepster;
+}
+
+p {
+  font-family: Creepster;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+.banner-orange {
+  background-color: #E26715;
+}
